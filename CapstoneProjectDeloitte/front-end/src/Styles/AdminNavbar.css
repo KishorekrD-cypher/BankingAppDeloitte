@@ -1,0 +1,174 @@
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin-left: 20px; 
+  }
+  
+  .navLinks {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 20px; 
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
+  
+  .signOutButton {
+    background-color: #3B1E54;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signOutButton:hover {
+    background-color: #3B1E54;
+    text-decoration:underline;
+  }
+
+  .approve-button{
+    background-color: #3B1E54;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .approve-button:hover{
+    background-color: #9B7EBD;
+  }
+
+  .removebutton{
+    background-color: #3B1E54;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .removebutton:hover{
+    background-color: #9B7EBD;
+  }
+
+
+  .heading{
+    margin-left: 10px;
+  }
+
+.admin-dashboard {
+    padding: 20px;
+  }
+  
+  .pending-users-list {
+    margin-top: 20px;
+  }
+  
+  .pending-users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 25%;
+    background-color: white;
+  }
+  
+  .pending-users-table th,
+  .pending-users-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .pending-users-table th {
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  .pending-users-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  
+  
+  .approve-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .approve-button:hover {
+    background-color: #45a049;
+  }
+  
+
+.user-management {
+    padding: 20px;
+  }
+  
+  .pending-users-table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+  }
+  .user-management-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #D4BEE4;
+    margin-top: 20px;
+    margin-bottom: 25%;
+  }
+  
+  .user-management-table th,
+  .user-management-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .user-management-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .user-management-table tr {
+    background-color: #EEEEEE;
+  }
+  
+  
+  .removebutton {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .removebutton:hover {
+    background-color: #e53935;
+  }
+  

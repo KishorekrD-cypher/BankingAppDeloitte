@@ -1,0 +1,97 @@
+.update-account-container {
+    margin-top: 20%;
+    margin-bottom: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.update-account-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3B1E54;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.update-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-field input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-field input:focus {
+  border-color: #007bff;
+}
+
+button.confirm-button {
+  padding: 12px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+}
+
+button.confirm-button:hover {
+  background-color: #218838;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+button.confirm-button:focus {
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  .update-account-container {
+    padding: 15px;
+    width: 90%;
+  }
+
+  .update-form {
+    gap: 10px;
+  }
+
+  .form-field input {
+    font-size: 14px;
+  }
+
+  button.confirm-button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+}

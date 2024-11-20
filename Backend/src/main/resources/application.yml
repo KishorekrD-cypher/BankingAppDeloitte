@@ -1,0 +1,14 @@
+spring:
+    application:
+        name: backend
+    datasource:
+        url: jdbc:mysql://localhost:3306/products
+        username: root
+        password: Kishore005**
+        driverClassName: com.mysql.cj.jdbc.Driver
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: create-drop
+server:
+    port: 8080

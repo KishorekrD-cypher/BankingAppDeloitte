@@ -1,0 +1,60 @@
+.account-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px); 
+    background-color: #D4BEE4;
+  }
+  
+  .account-card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .account-card h2 {
+    margin-bottom: 1rem;
+    color: #3B1E54;
+  }
+  
+  .account-card p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .button-group {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .update-button, .delete-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .update-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #F44336;
+    color: white;
+  }
+  
+  .update-button:hover {
+    background-color: #45A049;
+  }
+  
+  .delete-button:hover {
+    background-color: #D32F2F;
+  }
+  

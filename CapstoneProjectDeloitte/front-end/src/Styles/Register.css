@@ -1,0 +1,17 @@
+.register-form-container {
+    background-color: #D4BEE4; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    padding: 2rem; 
+    border: 1px solid #ddd; 
+  }
+
+  .login-form-container h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #3B1E54;
+  }
+
+  .button:hover{
+    background-color: #3B1E54; 
+  }
